@@ -1,3 +1,15 @@
+# BOOKMYSHOW-CLONE
+
+This is a bookmyshow app clone. Will use it for research on how to make the app if we could again and better.
+
+> Landing page
+
+Using Next.JS for the frontend and the landing page. 
+
+App Router Conventions
+
+![Convention](./public/app-route-convention.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
