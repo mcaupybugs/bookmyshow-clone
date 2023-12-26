@@ -1,9 +1,10 @@
 import React from 'react';
 import '../globals.css'
+import styles from './searchBar.module.css'
 
 const SearchBar = () =>{
     return (
-        <input className='border-2 h-12 w-80' type='search'></input>
+        <input className={styles.searchbar} type='search'></input>
     )
 }
 
