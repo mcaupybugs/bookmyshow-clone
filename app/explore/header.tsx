@@ -1,20 +1,28 @@
 import React from 'react';
 import SearchBar from './searchBar';
+import Location from './location';
 import Image from 'next/image'
 import '../globals.css'
+import Login from './login';
+import Drawer from './drawer';
 
 const Header = () => {
     return (
-        <div className='ml-24 mt-3 mr-20 grid grid-col-12'>
-            <div className='w-32 h-12 col-start-1 border-2'>
+        <div className='flex flex-row'>
+            <div className='basis-1/6'>
                 <Image src='/bms-logo.png' alt='Using bms logo' width={200} height={100}/>
             </div>
-            <div className='col-start-2 col-end-8 border-2'>
+            <div className='basis-2/6'>
                 <SearchBar></SearchBar>
             </div>
-            <div className='col-start-8 col-end-10 border-2'>
+            <div className='basis-1/6'>
+                <Location></Location>
             </div>
-            <div className='col-start-10 border-2'>
+            <div className='basis-1/6'>
+                <Login></Login>
+            </div>
+            <div className='basis-1/6'>
+                <Drawer></Drawer>
             </div>
         </div>
     )
